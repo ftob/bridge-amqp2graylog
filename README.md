@@ -11,3 +11,11 @@
 
 ### Build
 --------------------------------------------
+
+`` $ go build ``
+
+### Build by docker
+--------------------------------------------
+
+`` docker-compose build ``
+`` docker-compose up -d ``
