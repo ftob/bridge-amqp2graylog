@@ -7,6 +7,7 @@ import (
 	"gopkg.in/Graylog2/go-gelf.v2/gelf"
 	"io"
 	"os"
+	"time"
 )
 
 
@@ -92,6 +93,10 @@ func initConfig() {
 }
 
 func init()  {
+	duration := time.Duration(10) * time.Second
+	time.Sleep(duration)
+
+
 	var err error
 
 	initConfig()
